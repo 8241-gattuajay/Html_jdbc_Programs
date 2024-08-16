@@ -1,0 +1,16 @@
+<html>
+    <title>
+        Show and Hide Content
+    </title>
+    <script>
+        function myFunction() {
+            var x = document.createElement("P");
+            var t = document.createTextNode("This is a paragraph.");
+            x.appendChild(t);
+            document.body.appendChild(x);
+        }
+        </script>
+    <body>
+        <button onclick="myFunction()">Click me</button>
+    </body>
+</html>
